@@ -1,0 +1,10 @@
+Merge Sort :-
+
+    1. Divide array in 2 parts
+    2. Get both parts sorted via recursion
+    3. merge the sorted part
+
+.
+
+Time complexity = O(N *(log N) )
+Space complexity = O(N)

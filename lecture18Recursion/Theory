@@ -1,0 +1,60 @@
+Recursion :-
+    A function that call itself.
+
+    Every function called, will have its separate memory in stack.
+
+
+    Base Condition :- Condition where our recursion will stop making new call.
+                     -The base condition is represented by answers we already have.
+
+
+If there is no base condition included, the function will keep calling itself until the stack memory is filled,
+and cause error named : Stack overflow
+
+
+Why Recursion :-
+        It helps as solving bigger and complex problem in a simple way.
+
+        You can convert the recursion solution to iteration and vice-versa.
+
+        Space Complexity - O(N) , space complexity is not constant because of recursive call.
+
+        Helps to break bigger problem to small problem.
+
+
+Visualizing recursion:-
+          We visualize recursion using Recursion Tree
+
+When to use recursion:-
+        build understanding through practice.
+
+        when we can break down a problem to smaller problem.
+
+Steps/approach for recursion:-
+        -Identify if you can break problem to smaller problem.
+
+        -Write the recursion relation if needed.
+
+        -Draw the recursive tree.
+
+        -About the tree:-
+                -- See the flow of functions, how they are getting in stack.
+                -- identify and focus on the left tree calls and right tree calls.
+                -- Draw the tree and pointers again and again using pen and paper.
+                -- use a debugger to see the flow.
+
+        - See how the values and what type of values, are returned at each step.
+          See where the function call will come out off, in the end, you will come out of the main function.
+
+
+Variables :- 1) Arguments -- are something which is different of each call
+             2) Return Type -- return the value of same return type, or the recursive function
+             3) Body of function -- It is specific to that call
+
+types of recursion relation :-
+        - Linear recursion relation(inefficient) -- used in fibonacci
+        - Divide and Conquer recursion relation(efficient)-- used Binary Search
+
+
+Imp tip -- Do not over think
+           If the function have return type, return the recursive function.

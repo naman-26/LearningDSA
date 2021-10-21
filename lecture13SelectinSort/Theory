@@ -1,0 +1,9 @@
+Selection Sort :-
+We select the maximum element in the given array and swap it with the correct index number (For Sorting in Ascending order).
+
+Time Complexity :- best case- O(N^2)
+                   worst case- O(N^2)
+
+It is Not Stable.
+
+It performs well on small list or array.

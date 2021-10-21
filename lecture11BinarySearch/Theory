@@ -1,0 +1,17 @@
+Binary Search:-
+Algorithm: (Array is sorted)
+    1. Find the middle element
+    2. Take the middle element and check if target > middle elment
+       then search in right, else in left
+    3. if middle element == target element //ans
+
+
+
+Why Binary Search :-
+    Total comparisons in worst case is " log N with base 2 ", where N is length of array.
+    Therefore, takes less time and reduce time complexity.
+
+
+
+If we don't known that the array is sorted in ascending or descending order (Order agnostic Binary Search)
+    We have to compare first and last no.

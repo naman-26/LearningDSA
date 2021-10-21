@@ -1,0 +1,51 @@
+Strings :-
+
+Strings are created using String class.
+
+Strings are Immutable(cannot modify string object)
+
+in below code:-
+        String a = "naman";
+
+        //naman is stored in String pool created in heap memory.
+
+        //if we do
+        a = "agrawal";
+
+        //a new object agrawal will be stored in string pool,
+        //and naman will be deleted during garbage collection
+
+        String b ="agrawal"
+        //here, b will point to same object as a i.e. agrawal.
+
+
+
+        String c = new String("hello");
+        String d = new String("hello");
+        //here, two objects will created outside of String pool in heap memory.
+        //here, we are using new keyword and telling java to create two different objects.
+
+
+
+Comparison :-
+     == :- Compare value and reference
+
+     equals() :- Compare only value
+
+
+
+
+Place Holders :-(Pretty Printing)
+    There are many format specifiers we can use. Here are some common ones:
+
+    %c - Character
+    %d - Decimal number (base 10)
+    %e - Exponential floating-point number
+    %f - Floating-point number
+    %i - Integer (base 10)
+    %o - Octal number (base 8)
+    %s - String
+    %u - Unsigned decimal (integer) number
+    %x - Hexadecimal number (base 16)
+    %t - Date/time
+    %n - Newline

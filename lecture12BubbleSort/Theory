@@ -1,0 +1,14 @@
+Bubble Sort :-
+
+Space Complexity  = O(1).
+    Constant space required. No extra space is required i.e. copying the array, etc not requried.
+
+Also known as inplace sorting algorithm
+
+Time complexity : Best Case: O(N) =>  Already Sorted
+                  Worst Case: O(N^2) => Sorted in opposite
+
+        N = No. of comparisons
+
+It is a Stable Sorting Algorithm.
+

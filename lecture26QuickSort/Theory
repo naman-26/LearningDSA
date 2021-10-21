@@ -1,0 +1,8 @@
+Quick Sort :-
+
+   Time Complexity -  worst case - O(N^2) - pivot taken at end or start of array
+                      best case - O(N* log N) - pivot taken at middle of array
+
+  - Not Stable
+  - it is a In-Place Sorting algo :- does not take O(N) extra space as Merge sort.
+  - Merge Sort is better for linked list, its linked list do not have continuous memory allocation.

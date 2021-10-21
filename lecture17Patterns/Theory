@@ -1,0 +1,11 @@
+Patterns Question :-
+
+How to approach :
+        1) No. of lines = No. of rows = No. of outer loop will run.
+        2) Identify, for every row no. -
+            -how many columns are there.
+            -Types of elements in column.
+
+        3) What do you need to print
+
+        int numOfCol= i >= n ? n - i/2 +1 : i;

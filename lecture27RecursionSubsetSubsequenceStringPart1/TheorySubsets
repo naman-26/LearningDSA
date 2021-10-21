@@ -1,0 +1,10 @@
+SubSets :-
+
+        - Permutation and Combination
+        - Subsets -> Non-adjacent collection
+
+The pattern of taking same elements and removing some of an array or string is
+known as subset pattern.
+
+Subsets in string is called SubSequence.
+

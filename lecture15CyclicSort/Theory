@@ -1,0 +1,12 @@
+Cyclic Sort:-
+
+When given Number from range 1 to N => Use Cyclic Sort(important)
+
+Time Complexity :- worst Case : O(N)
+
+Tips:-
+if range is 0 to N :-
+                        every element will be at index=value
+
+if range is 1 to N :-
+                        every element will be index-1 = value

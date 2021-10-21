@@ -1,0 +1,10 @@
+Insertion Sort:-
+
+
+Tme Complexity :- Worst Case : O(N^2)
+                  Best Case : O(N)
+
+why use Insertion sort?
+    - Adeptive :- Steps gets reduced if array is sorted.
+    - Stable
+    - Used for Smaller value of N => works good when array is partially sorted.
