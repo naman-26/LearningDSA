@@ -24,5 +24,20 @@ public class Main {
 
         BoxPrice box6 = new BoxPrice();
 
+
+
+        Box box7 = new Box();
+        //warning
+        box7.greeting();
+
+        // correct way
+        // as greeting is static method
+        Box.greeting();
+
     }
+
+
+
+    // IMP point
+    //static method cam\n be inherited but cannot be overridden
 }
