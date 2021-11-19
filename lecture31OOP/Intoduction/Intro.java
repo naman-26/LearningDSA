@@ -1,4 +1,4 @@
-package com.naman.lecture31OOP.Intoduction;
+package com.naman.lecture31OOP.intoduction;
 
 public class Intro {
     public static void main(String[] args) {

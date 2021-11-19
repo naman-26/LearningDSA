@@ -1,4 +1,4 @@
-package com.naman.lecture31OOP.OOP4;
+package com.naman.lecture31OOP.oop4;
 
 public class A {
     private int num;

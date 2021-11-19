@@ -1,4 +1,4 @@
-package com.naman.lecture31OOP.OOP3.inheritance;
+package com.naman.lecture31OOP.oop3.inheritance;
 
 public class BoxPrice extends BoxWeight {
 

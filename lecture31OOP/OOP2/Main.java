@@ -1,4 +1,4 @@
-package com.naman.lecture31OOP.OOP2;
+package com.naman.lecture31OOP.oop2;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.naman.lecture31OOP.OOP3.inheritance;
+package com.naman.lecture31OOP.oop3.inheritance;
 
 
 public class Main {
@@ -39,5 +39,5 @@ public class Main {
 
 
     // IMP point
-    //static method cam\n be inherited but cannot be overridden
+    //static method can be inherited but cannot be overridden
 }

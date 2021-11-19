@@ -1,4 +1,4 @@
-package com.naman.lecture31OOP.OOP3.polymorphism;
+package com.naman.lecture31OOP.oop3.polymorphism;
 
 public class ObjectPrint {
 

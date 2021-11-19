@@ -1,4 +1,4 @@
-package com.naman.lecture31OOP.OOP2;
+package com.naman.lecture31OOP.oop2;
 
 // demo to show initialisation of static variables
 public class StaticBlock {

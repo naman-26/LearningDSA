@@ -1,4 +1,4 @@
-package com.naman.lecture31OOP.OOP2;
+package com.naman.lecture31OOP.oop2;
 
 // Singleton class is a class which only allow single object to be created.
 public class Singleton {
