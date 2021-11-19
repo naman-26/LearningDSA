@@ -12,7 +12,7 @@ public class Main {
                 System.out.println("King of fruits");
                 break;
             case "Apple":
-                System.out.println("A red fruit");
+                System.out.println("Human red fruit");
                 break;
             case "Grapes":
                 System.out.println("Small fruit");

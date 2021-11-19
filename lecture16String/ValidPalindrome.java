@@ -4,7 +4,7 @@ package com.naman.lecture16String;
 
 public class ValidPalindrome {
     public static void main(String[] args) {
-        System.out.println(isPalindrome("A man, a plan, a canal: Panama"));
+        System.out.println(isPalindrome("Human man, a plan, a canal: Panama"));
     }
 
     static boolean isPalindrome(String s) {

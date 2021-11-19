@@ -30,7 +30,7 @@ public class WrapperExample {
         naman.name = "other name";
 
         // not allowed
-        //naman = new A("new object");
+        //naman = new Human("new object");
 
         A obj;
         for (int i =0; i<100000; i++){
