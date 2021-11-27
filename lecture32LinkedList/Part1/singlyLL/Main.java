@@ -1,6 +1,5 @@
 package com.naman.lecture32LinkedList.Part1.singlyLL;
 
-import com.naman.lecture32LinkedList.Part1.singlyLL.CustomLL;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,5 +28,9 @@ public class Main {
         list.insertLast(88);
         list.insertLast(2);
         list.insertLast(43);
+        list.display();
+
+        list.insertRec(97,3);
+        list.display();
     }
 }

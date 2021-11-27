@@ -42,6 +42,8 @@ public class Permutation {
             String f = p.substring(0,i);
             String s = p.substring(i, p.length());
             ans.addAll(permutationsReturn(f + ch + s, up.substring(1)));
+
+
         }
 
         return ans;

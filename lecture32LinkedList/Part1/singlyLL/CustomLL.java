@@ -62,6 +62,23 @@ public class CustomLL {
         size +=1;
     }
 
+    // insert using recursion
+    public void insertRec(int val, int index){
+        head = insertPec(val, index, head);
+    }
+    private Node insertPec(int value, int index, Node node){
+        if (index == 0){
+            Node temp = new Node(value);
+            temp.next = node;
+            size++;
+            return temp;
+        }
+
+        node.next = insertPec(value,index-1, node.next);
+
+        return node;
+    }
+
 
     public void deleteFirst(){
         if (head == null){
