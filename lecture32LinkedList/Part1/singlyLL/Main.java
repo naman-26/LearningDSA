@@ -32,5 +32,8 @@ public class Main {
 
         list.insertRec(97,3);
         list.display();
+
+        list.reverse();
+        list.display();
     }
 }
